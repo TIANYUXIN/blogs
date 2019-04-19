@@ -6,15 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://TIANYUXIN.github.io/blogs">
-  <title>Archives: 2019 | blogs</title>
+  <title>mac安装go的步骤 | blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="blogs">
-<meta property="og:url" content="http://TIANYUXIN.github.io/blogs/archives/2019/index.html">
+  <meta name="description" content="###首先：brew install go如果没有brew 命令行  1/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 命令行运行 go version 看有无go的版本信息1go version 有的话说明安装成功 第二步 命令">
+<meta name="keywords" content="git">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mac安装go的步骤">
+<meta property="og:url" content="http://TIANYUXIN.github.io/blogs/2019/04/18/personal3/index.html">
 <meta property="og:site_name" content="blogs">
+<meta property="og:description" content="###首先：brew install go如果没有brew 命令行  1/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 命令行运行 go version 看有无go的版本信息1go version 有的话说明安装成功 第二步 命令">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://github.com/TIANYUXIN/blogs/blob/gh-pages/img/001.png">
+<meta property="og:image" content="https://github.com/TIANYUXIN/blogs/blob/gh-pages/img/002.png">
+<meta property="og:updated_time" content="2019-04-18T09:31:00.707Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="blogs">
+<meta name="twitter:title" content="mac安装go的步骤">
+<meta name="twitter:description" content="###首先：brew install go如果没有brew 命令行  1/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot; 命令行运行 go version 看有无go的版本信息1go version 有的话说明安装成功 第二步 命令">
+<meta name="twitter:image" content="https://github.com/TIANYUXIN/blogs/blob/gh-pages/img/001.png">
   
     <link rel="alternative" href="/atom.xml" title="blogs" type="application/atom+xml">
   
@@ -150,36 +158,80 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-personal3" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/blogs/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blogs/2019/04/18/personal3/" class="archive-article-date">
-  	<time datetime="2019-04-18T09:31:00.707Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-18</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blogs/2019/04/18/personal3/">mac安装go的步骤</a>
+    <h1 class="article-title" itemprop="name">
+      mac安装go的步骤
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/blogs/2019/04/18/personal3/" class="archive-article-date">
+  	<time datetime="2019-04-18T09:31:00.707Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>###首先：brew install go<br>如果没有brew 命令行 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure>
+<p>命令行运行 go version 看有无go的版本信息<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go version</span><br></pre></td></tr></table></figure></p>
+<p>有的话说明安装成功</p>
+<h3 id="第二步-命令行运行-cd"><a href="#第二步-命令行运行-cd" class="headerlink" title="第二步 命令行运行 cd ~"></a>第二步 命令行运行 cd ~</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br></pre></td></tr></table></figure>
+<p>然后 运行 ls -all</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls -all</span><br></pre></td></tr></table></figure>
+<p>看有没有 .bash_profile</p>
+<p>如果没有 touch .bash_profile</p>
+<p>然后vim .bash_profile</p>
+<p>按 i 键 输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">GOROOT=/usr/local/Cellar/go/1.10.1/libexec</span><br><span class="line">export GOROOT</span><br><span class="line">export GOPATH=/Users/用户名/go</span><br><span class="line">export GGOBIN=$GOPATH/bin</span><br><span class="line">export PATH=$PATH:$GOBIN:$GOROOT/bin</span><br></pre></td></tr></table></figure></p>
+<p>然后按esc 退出编辑 按shift+:键 输入wq点击回车</p>
+<p>在命令行输入source ～/.bash_profile 执行环境变量<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ～/.bash_profile</span><br></pre></td></tr></table></figure></p>
+<p>然后执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">mkdir go</span><br><span class="line">cd go</span><br><span class="line">mkdir src</span><br><span class="line">cd src</span><br></pre></td></tr></table></figure></p>
+<p>然后在把项目放在～/go/src下</p>
+<p>cd 到 项目里 运行 go run main.go</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go run main.go</span><br></pre></td></tr></table></figure>
+<p><img src="https://github.com/TIANYUXIN/blogs/blob/gh-pages/img/001.png" alt="常规"><br>看到上图说明成功</p>
+<p><img src="https://github.com/TIANYUXIN/blogs/blob/gh-pages/img/002.png" alt="常规"><br>如果出现上图内容<br>只需执行：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go get github.com/astaxie/beego</span><br></pre></td></tr></table></figure></p>
+<p>把5个包加载完即可</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="https://github.com/TIANYUXIN/blogs/blob/gh-pages/img/Wechat.jpeg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -191,146 +243,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://TIANYUXIN.github.io/blogs/2019/04/18/personal3/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blogs/2019/04/12/personal2/" class="archive-article-date">
-  	<time datetime="2019-04-12T05:05:25.171Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-12</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/blogs/2019/04/12/personal2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">解决数字长整型的正则</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blogs/2019/04/12/personal2/">解决数字长整型的正则</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">HTML</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">js</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">function</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blogs/2019/04/12/hello-world/" class="archive-article-date">
-  	<time datetime="2019-04-12T03:04:48.275Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-12</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blogs/2019/04/12/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blogs/2019/04/11/personal1/" class="archive-article-date">
-  	<time datetime="2019-04-11T09:19:35.006Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-11</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blogs/2019/04/11/personal1/">链接github项目库</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/blogs/2019/04/11/personal/" class="archive-article-date">
-  	<time datetime="2019-04-11T09:13:34.410Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-04-11</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/blogs/2019/04/11/personal/">查找Mac客户端下载视频文件</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
-
-    
 
 
           </div>
@@ -353,8 +365,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
